@@ -1,0 +1,47 @@
+Q1. What is Flask Framework? What are the advantages of Flask Framework?
+ANS - 
+Flask is a micro web framework written in python.it is classified as a microframework because it does not require particular tools or libararies.
+it has no database abstraction layer,from validation,or any other components where pre-existing third-party libararies provide common function.
+
+ADVANTAGES :
+
+1. Scalable :
+             Size is everything,and flask status as a microframework means that you can use it to grow a tech project such as a web app
+incredibly quickly. if you want to make an app that start small, but has the pontential to grow quickly and in directions you havent 
+completely worked out yet.
+2. Flexible :
+             This is the core feature of flask, and one of it biggest advantages. To parapharse one of the principle of the 
+Zen of python,simplicity is better than complexity,because it can easily rearranged and move around, it also makes sure that
+the structure wont collapse when a part is altered.The minimal nature of the flask and its aptitude for developing smaller web 
+apps means that its even more flexible than Django itself.
+3. Easy To Negotiate :
+                      Like Django.being able to find your way around easily is key for allowing web developer to conentrate in  
+coding quickly, without getting bogged down. at its core , the microframe work is eay to understand for web developer, not just 
+saving them time and effort but also giving them more control over their code and what is possible.
+4. Light Weight :
+                 When we use this term in relation to a tool or framework, we talking about the design of it- there are few constituent
+parts that need to be assembled and reassembled, and it doesnot rely on a large number of extensions to function. this design 
+gives web developer a certain level of control.
+5. Documentation :
+                  Following the creator own theory that nice documentation design makes you actually write documentations,
+flask users will find a wealthy number of example and tip arranged in a structured manner. this encourage developer to use the 
+framework as they can easily get introduced to the different aspects and capabilities of the tool.
+
+Q2. Create a simple Flask application to display ‘Hello World!!’. Attach the screenshot of the output in
+Jupyter Notebook.
+ANS -
+https://mango-postman-ihobc.pwskills.app:5000
+
+Q3. What is App routing in Flask? Why do we use app routes?
+ANS -
+App routing is used to map the specific URL with the associated function that is intended to perform some task.
+it is used to access some particular page like Flask tutorial in the web .
+it is used to access some particular page like Flask tutorial in the web .
+
+Q5. What function is used in Flask for URL Building? Write a Python code to demonstrate the working of the
+url_for() function.
+ANS - 
+To build a URL to a specific function,use the URL_for() function.it accepts the name of the function as its first
+argument and any number of keyword argument,each corresponding to a variable part of the URL rule.
+The url_for() function is very useful for dynamicallu bulding a url for specific function. the function accepts the name of a function 
+as first argumnet.and one or more keyword arguments,each corresponding to the variable part of URL.
